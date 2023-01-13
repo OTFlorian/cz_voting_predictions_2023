@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>2023 Czech Presidential Election Prediction Generator</h1>
+    <p>This is a simple web app that puts a list of your guesses for the first round of the 2023 Czech presidential election into a clipboard, so you don't have to calculate whether your guess to share on Twitter or anywhere else adds up to 100%.</p>
     <form>
         <label for="candidate1">Petr Pavel:</label>
         <input type="text" id="candidate1" oninput="updateTotal()">%<br>
@@ -28,5 +29,6 @@
     <p><button onclick="generate()">Copy Predictions to Clipboard</button></p>
     <div id="total"></div>
     <a href="https://github.com/OTFlorian" id="creator">Created by Oldrich Tristan Florian</a>
+    <p id="repository">GitHub repository available <a href="https://github.com/OTFlorian/cz_voting_predictions_2023">here</a>.</p>
 </body>
 </html>
