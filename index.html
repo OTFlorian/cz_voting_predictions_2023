@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2023 Czech Presidential Election Prediction Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>2023 Czech Presidential Election Prediction Generator</h1>
+    <form>
+        <label for="candidate1">Petr Pavel:</label>
+        <input type="text" id="candidate1" oninput="updateTotal()">%<br>
+        <label for="candidate2">Andrej Babiš:</label>
+        <input type="text" id="candidate2" oninput="updateTotal()">%<br>
+        <label for="candidate3">Danuše Nerudová:</label>
+        <input type="text" id="candidate3" oninput="updateTotal()">%<br>
+        <label for="candidate4">Pavel Fischer:</label>
+        <input type="text" id="candidate4" oninput="updateTotal()">%<br>
+        <label for="candidate5">Jaroslav Bašta:</label>
+        <input type="text" id="candidate5" oninput="updateTotal()">%<br>
+        <label for="candidate6">Marek Hilšer:</label>
+        <input type="text" id="candidate6" oninput="updateTotal()">%<br>
+        <label for="candidate7">Karel Diviš:</label>
+        <input type="text" id="candidate7" oninput="updateTotal()">%<br>
+        <label for="candidate8">Tomáš Zima:</label>
+        <input type="text" id="candidate8" oninput="updateTotal()">%<br>
+    </form>
+    <p><button onclick="generate()">Copy Predictions to Clipboard</button></p>
+    <div id="total"></div>
+    <a href="https://github.com/OTFlorian" id="creator">Created by Oldrich Tristan Florian</a>
+</body>
+</html>

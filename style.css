@@ -1,0 +1,47 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    width: 50px;
+    margin-left: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #DC021B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#creator {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
